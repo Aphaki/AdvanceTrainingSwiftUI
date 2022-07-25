@@ -7,10 +7,36 @@
 
 import SwiftUI
 
+struct CustomTextModifier: ViewModifier {
+    
+    let backgroundColor: Color
+    
+    func body(content: Content) -> some View {
+        content
+            .font(.headline)
+            .frame(maxWidth: .infinity)
+            .padding()
+            .background(backgroundColor)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+            .padding(.horizontal, 10)
+    }
+}
+
+extension View {
+    func applyCustomTextModifier(color: Color) -> some View {
+        modifier(CustomTextModifier(backgroundColor: color))
+    }
+}
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 30) {
+            Text("Hello, world!")
+                .modifier(CustomTextModifier(backgroundColor: .pink))
+            Text("Hello, universe!")
+                .applyCustomTextModifier(color: .green)
+        }
     }
 }
 
