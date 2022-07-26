@@ -12,6 +12,7 @@
 		7F1B7A24288E945500D5BB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B7A23288E945500D5BB3E /* Assets.xcassets */; };
 		7F1B7A27288E945500D5BB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B7A26288E945500D5BB3E /* Preview Assets.xcassets */; };
 		7F1B7A2E288F6D6100D5BB3E /* ViewModifierByApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B7A2D288F6D6100D5BB3E /* ViewModifierByApple.swift */; };
+		7F1B7A30288FBF2600D5BB3E /* CustomButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B7A2F288FBF2600D5BB3E /* CustomButtonStyleBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7F1B7A23288E945500D5BB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F1B7A26288E945500D5BB3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F1B7A2D288F6D6100D5BB3E /* ViewModifierByApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierByApple.swift; sourceTree = "<group>"; };
+		7F1B7A2F288FBF2600D5BB3E /* CustomButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				7F1B7A1F288E945400D5BB3E /* AdvanceTrainingSwiftUIApp.swift */,
 				7F1B7A21288E945400D5BB3E /* ContentView.swift */,
 				7F1B7A2D288F6D6100D5BB3E /* ViewModifierByApple.swift */,
+				7F1B7A2F288FBF2600D5BB3E /* CustomButtonStyleBootcamp.swift */,
 				7F1B7A23288E945500D5BB3E /* Assets.xcassets */,
 				7F1B7A25288E945500D5BB3E /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				7F1B7A22288E945400D5BB3E /* ContentView.swift in Sources */,
 				7F1B7A2E288F6D6100D5BB3E /* ViewModifierByApple.swift in Sources */,
+				7F1B7A30288FBF2600D5BB3E /* CustomButtonStyleBootcamp.swift in Sources */,
 				7F1B7A20288E945400D5BB3E /* AdvanceTrainingSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
