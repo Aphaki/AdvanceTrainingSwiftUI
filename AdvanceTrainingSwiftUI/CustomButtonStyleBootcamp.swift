@@ -7,7 +7,13 @@
 
 import SwiftUI
 
-struct PinkButton: ButtonStyle {
+extension View {
+    func pinkButtonStyle(pressedColor: Color = .blue) -> some View {
+        buttonStyle(PinkButtonStyle(pressedColor: pressedColor))
+    }
+}
+
+struct PinkButtonStyle: ButtonStyle {
     
     let pressedColor: Color
     
@@ -33,15 +39,15 @@ struct CustomButtonStyleBootcamp: View {
             Button {} label: {
                 Text("Button1")
             }
-            .buttonStyle(PinkButton())
+            .pinkButtonStyle(pressedColor: .green)
             Button {} label: {
                 Text("Button2")
             }
-            .buttonStyle(PinkButton(pressedColor: .yellow))
+            .pinkButtonStyle()
             Button {} label: {
                 Text("Button3")
             }
-            .buttonStyle(PinkButton())
+            .buttonStyle(PinkButtonStyle())
         }
     }
 }
