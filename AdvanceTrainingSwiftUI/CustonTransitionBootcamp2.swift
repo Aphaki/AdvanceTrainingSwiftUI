@@ -14,8 +14,13 @@ extension AnyTransition {
             identity: MyImageStyleViewModifier(degree: 0)
         )
     }
+    static var disappearStar: AnyTransition {
+        return modifier(active: JustRotatingViewModifier(degree: 180),
+                        identity: JustRotatingViewModifier(degree: 0))
+    }
+    
     static var rotateAndDisappear: AnyTransition {
-        asymmetric(insertion: .rotatingStar, removal: .scale(scale: 0))
+        asymmetric(insertion: .rotatingStar, removal: .disappearStar)
     }
 }
 
@@ -27,6 +32,17 @@ extension View {
     }
 }
 
+struct JustRotatingViewModifier: ViewModifier {
+    let degree: Double
+    
+    func body(content: Content) -> some View {
+        content
+            .foregroundColor(.yellow)
+            .scaleEffect(2)
+            .rotationEffect(Angle(degrees: degree))
+    }
+}
+
 struct MyImageStyleViewModifier: ViewModifier {
     
     let degree: Double
@@ -34,7 +50,7 @@ struct MyImageStyleViewModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .foregroundColor(.yellow)
-            .scaleEffect(3)
+            .scaleEffect(2)
             .rotationEffect(Angle(degrees: degree))
             .offset(x: degree == 0 ? 0 : UIScreen.main.bounds.width,
                     y: degree == 0 ? 0 : UIScreen.main.bounds.height )
