@@ -38,7 +38,7 @@ struct JustRotatingViewModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .foregroundColor(.yellow)
-            .scaleEffect(2)
+            .frame(width: 150, height: 150)
             .rotationEffect(Angle(degrees: degree))
     }
 }
@@ -50,7 +50,7 @@ struct MyImageStyleViewModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .foregroundColor(.yellow)
-            .scaleEffect(2)
+            .frame(width: 150, height: 150)
             .rotationEffect(Angle(degrees: degree))
             .offset(x: degree == 0 ? 0 : UIScreen.main.bounds.width,
                     y: degree == 0 ? 0 : UIScreen.main.bounds.height )
@@ -66,9 +66,10 @@ struct CustonTransitionBootcamp2: View {
         VStack {
             Spacer()
             if showStar {
-            Image(systemName: "star.fill")
-                .myImgStyle()
-                .transition(.rotateAndDisappear)
+                Image(systemName: "star.fill")
+                    .resizable()
+                    .myImgStyle()
+                    .transition(.rotateAndDisappear)
             }
             Spacer()
             Text("Click")
