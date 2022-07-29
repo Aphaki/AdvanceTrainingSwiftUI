@@ -72,9 +72,9 @@ struct CustomTransitionBootcamp: View {
             Spacer()
             Text("Click")
                 .onTapGesture {
-                    withAnimation(.easeInOut) {
+//                    withAnimation(.easeInOut) {
                         showText.toggle()
-                    }
+//                    }
                 }
         }
     }
