@@ -11,7 +11,7 @@ import SwiftUI
 struct AdvanceTrainingSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            CustonTransitionBootcamp2()
+            MatchedGeometryEffectBootcamp()
         }
     }
 }
