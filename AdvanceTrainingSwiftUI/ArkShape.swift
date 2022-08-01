@@ -44,7 +44,6 @@ struct Clover: Shape {
                         radius: rect.midX / 5,
                         startAngle: Angle(degrees: 0),
                         endAngle: Angle(degrees: 360), clockwise: false)
-
         }
     }
 }
@@ -54,7 +53,9 @@ struct ArkShape: View {
         
         VStack {
             Clover()
-                .frame(width: 100, height: 100)
+                .frame(width: 200, height: 200)
+            Text("♣︎")
+                .font(.system(size: 200))
         }
     }
 }
