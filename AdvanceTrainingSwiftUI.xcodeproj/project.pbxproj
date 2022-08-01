@@ -16,6 +16,8 @@
 		7F1B7A3228920EF200D5BB3E /* CustomTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B7A3128920EF100D5BB3E /* CustomTransitionBootcamp.swift */; };
 		7F31CB942893C8910095CC29 /* CustonTransitionBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31CB932893C8910095CC29 /* CustonTransitionBootcamp2.swift */; };
 		7F81D52E289638100064385D /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F81D52D289638100064385D /* MatchedGeometryEffectBootcamp.swift */; };
+		7FA117CE28974E5E00419A6B /* ShapeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA117CD28974E5E00419A6B /* ShapeBootcamp.swift */; };
+		7FA117D028976C8100419A6B /* TrimBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA117CF28976C8100419A6B /* TrimBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		7F1B7A3128920EF100D5BB3E /* CustomTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionBootcamp.swift; sourceTree = "<group>"; };
 		7F31CB932893C8910095CC29 /* CustonTransitionBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonTransitionBootcamp2.swift; sourceTree = "<group>"; };
 		7F81D52D289638100064385D /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
+		7FA117CD28974E5E00419A6B /* ShapeBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeBootcamp.swift; sourceTree = "<group>"; };
+		7FA117CF28976C8100419A6B /* TrimBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				7F1B7A3128920EF100D5BB3E /* CustomTransitionBootcamp.swift */,
 				7F31CB932893C8910095CC29 /* CustonTransitionBootcamp2.swift */,
 				7F81D52D289638100064385D /* MatchedGeometryEffectBootcamp.swift */,
+				7FA117CD28974E5E00419A6B /* ShapeBootcamp.swift */,
+				7FA117CF28976C8100419A6B /* TrimBootcamp.swift */,
 				7F1B7A23288E945500D5BB3E /* Assets.xcassets */,
 				7F1B7A25288E945500D5BB3E /* Preview Content */,
 			);
@@ -156,7 +162,9 @@
 				7F1B7A2E288F6D6100D5BB3E /* ViewModifierByApple.swift in Sources */,
 				7F81D52E289638100064385D /* MatchedGeometryEffectBootcamp.swift in Sources */,
 				7F1B7A3228920EF200D5BB3E /* CustomTransitionBootcamp.swift in Sources */,
+				7FA117CE28974E5E00419A6B /* ShapeBootcamp.swift in Sources */,
 				7F1B7A30288FBF2600D5BB3E /* CustomButtonStyleBootcamp.swift in Sources */,
+				7FA117D028976C8100419A6B /* TrimBootcamp.swift in Sources */,
 				7F31CB942893C8910095CC29 /* CustonTransitionBootcamp2.swift in Sources */,
 				7F1B7A20288E945400D5BB3E /* AdvanceTrainingSwiftUIApp.swift in Sources */,
 			);
