@@ -21,6 +21,7 @@
 		7FA117D028976C8100419A6B /* TrimBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA117CF28976C8100419A6B /* TrimBootcamp.swift */; };
 		7FDA87C12897A93F007842EB /* ArkShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA87C02897A93F007842EB /* ArkShape.swift */; };
 		7FDA87C328982200007842EB /* AnimatableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA87C228982200007842EB /* AnimatableDataBootcamp.swift */; };
+		7FDDF215289B734200EE3FB7 /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDDF214289B734200EE3FB7 /* ViewBuilderBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		7FA117CF28976C8100419A6B /* TrimBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimBootcamp.swift; sourceTree = "<group>"; };
 		7FDA87C02897A93F007842EB /* ArkShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkShape.swift; sourceTree = "<group>"; };
 		7FDA87C228982200007842EB /* AnimatableDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataBootcamp.swift; sourceTree = "<group>"; };
+		7FDDF214289B734200EE3FB7 /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				7FDA87C02897A93F007842EB /* ArkShape.swift */,
 				7FDA87C228982200007842EB /* AnimatableDataBootcamp.swift */,
 				7F59FD1E289A3996000FB40A /* GenericsBootcamp.swift */,
+				7FDDF214289B734200EE3FB7 /* ViewBuilderBootcamp.swift */,
 				7FA117CF28976C8100419A6B /* TrimBootcamp.swift */,
 				7F1B7A23288E945500D5BB3E /* Assets.xcassets */,
 				7F1B7A25288E945500D5BB3E /* Preview Content */,
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F1B7A22288E945400D5BB3E /* ContentView.swift in Sources */,
+				7FDDF215289B734200EE3FB7 /* ViewBuilderBootcamp.swift in Sources */,
 				7F1B7A2E288F6D6100D5BB3E /* ViewModifierByApple.swift in Sources */,
 				7F59FD1F289A3996000FB40A /* GenericsBootcamp.swift in Sources */,
 				7F81D52E289638100064385D /* MatchedGeometryEffectBootcamp.swift in Sources */,
