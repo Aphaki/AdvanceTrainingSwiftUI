@@ -25,7 +25,7 @@ struct NameCard<Content: View>: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Spacer()
-                .frame(height: 100)
+                .frame(height: 50)
             Text(name)
                 .font(.title)
             RoundedRectangle(cornerRadius: 20)
@@ -39,22 +39,27 @@ struct NameCard<Content: View>: View {
         .background(
             content
         )
+        .cornerRadius(10)
+        .overlay(RoundedRectangle(cornerRadius: 10).stroke(lineWidth: 5))
+        .padding(.horizontal, 10)
     }
 }
 
 struct ViewBuilderBootcamp: View {
     
     var body: some View {
-        VStack {
+        VStack(spacing: 40) {
             NameCard(name: "Maru Kim", contact: "010 - 1234 - 5678", email: "MaruKim@email.com", foregroundColor: .white) {
                 Image("DisneyCastle")
                     .resizable()
+                    
             }
+            
             NameCard(name: "Mari Kim", contact: "010 - 5678 - 1234", email: "MariKim@email.com", foregroundColor: .black) {
                 Image(systemName: "applelogo")
                     .resizable()
-                    .frame(width: 50, height: 50)
-                    .opacity(0.2)
+                    .frame(width: 70, height: 70)
+                    .opacity(0.1)
             }
         }
     }
