@@ -40,7 +40,7 @@ struct NameCard<Content: View>: View {
             content
         )
         .cornerRadius(10)
-        .overlay(RoundedRectangle(cornerRadius: 10).stroke(lineWidth: 5))
+        .overlay(RoundedRectangle(cornerRadius: 10).stroke(lineWidth: 2))
         .padding(.horizontal, 10)
     }
 }
